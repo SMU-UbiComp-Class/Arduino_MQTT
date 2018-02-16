@@ -2,8 +2,8 @@
  Manipulated From the Basic MQTT example 
  
   - connects to an MQTT server
-  - publishes "hello world" to the topic "outTopic"
-  - subscribes to the topic "inTopic"
+  - publishes messages to the topic 
+  - subscribes to the topic "SYS/Eric"
 */
 
 #include <SPI.h>
@@ -32,7 +32,7 @@ PubSubClient client(server, 1883, callback, wifiClient);
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(57600);
   
   // Start Ethernet with the build in MAC Address
   // attempt to connect to Wifi network:
