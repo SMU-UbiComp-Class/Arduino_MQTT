@@ -1,3 +1,6 @@
+This library was manipulated from <a href="https://github.com/hirotakaster/MQTT/" target=_blank>here</a>  to work with the RedBear Duo. 
+
+
 # MQTT for Photon, Spark Core
 <a href="http://mqtt.org/" target=_blank>MQTT</a> publish/subscribe library for Photon, Spark Core version 0.4.26.
 
